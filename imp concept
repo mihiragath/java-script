@@ -1,0 +1,20 @@
+java script execution context
+
+    =>{} is called globle execution context / function execution context / evaluation execution context
+    =>{} called memory creation phase or execution phase.
+    1. globle execution:-
+        allocate on this function, it is necessary.
+    2.memory phase:-
+        store all variable with undefined value.
+    3.execution phase:-
+        store value on variable.
+        when calling function then it will create an box then store [new variable enviroment + execution thread(arithmatic operation)]
+            [i]memory phase:-
+                ex- val1 = undefined, val2 = undefined
+
+|----------->[ii]execution context:-
+| allocate all value on variable then execute all process and perform some operation
+| after execution execution created block which will create on function calling it will deleted
+|
+-- if any variable calling an function then recreate a box then store [new variable enviroment + execution thread(arithmatic operation)]
+then repeate execution context.
