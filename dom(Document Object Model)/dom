@@ -1,0 +1,22 @@
+console.log(document); // provide whole document html code which is open in chrome
+console.log(window); //there are lot's of function which are using to manipulate the data
+console.log(window.document); //also provide whole document html code which is open in chrome
+document.getElementById("id_name"); //to access an element of html code which mean fetch the data
+document.getElementById("id_name").innerHTML =
+  "tag name or data which is manupulate temporary on real web on chrome";
+document.log(document.attribute_name); //using this command we access the all attributes which are using current webpage'
+//basically dom is used to pagemanipulation usingn dom we able to manupulate different object wehich are related to current page
+document.getElementById("id_name").id; //give current id
+document.getElementById("id_name").className; //give current class name
+document.getElementById("id_name").getAttribute("attribute_name"); //to get current attribute name
+document
+  .getElementById("id_name")
+  .setAttribute("attribute_name", "set_attribute"); //to change or set current attribute name
+const variable_name = document.getElementById("id_name"); //to store the data into variables
+variable_name.style.css_attribute = "value"; //to set css on the attributes
+variable_name.innerText; //it show current disply content
+variable_name.textContent; //it show all content which are hiding by css
+variable_name.innerHTML; // it gives all value with attribute and give all tag
+document.querySelector("attribute_name"); //select first attribute which are selected in parameter
+document.querySelectorAll("attribute_name"); //select all attribute which are selected in parameter into whole webpage
+document.getElementsByClassName("class_name"); //to fetch the class by using name
