@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>dom learning</title>
+    <style>
+        .bg-color{
+            background-color: black;
+            color: azure;
+        }
+    </style>
+</head>
+<body class="bg-color">
+    <h1 id="heading">Dom learning</h1>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+
+    <script>
+        const parent = document.querySelector('.parent');
+        // console.log(parent);
+        // console.log(parent.children);
+        // console.log(parent.children[1].innerHTML);   
+
+        // for(let i = 0; i < parent.children.length; i++){
+        //     console.log(parent.children[i].innerHTML);
+            
+        // }
+        parent.children[1].style.color = "orange";
+        
+        // console.log(parent.firstElementChild);//show first element which is monday
+        // console.log(parent.lastElementChild);//show last element which is thursday
+
+        const dayOne = document.querySelector('.day');
+        // console.log(dayOne);//access first element which is monday 
+        // console.log(dayOne.parentElement);//to access parent element which is parent class
+        // console.log(dayOne.nextElementSibling);//to move next child which is thursday
+
+        console.log("Nodes:",parent.childNodes);//it shows whole structure of the code  
+        
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>

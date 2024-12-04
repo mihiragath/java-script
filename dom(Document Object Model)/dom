@@ -20,3 +20,11 @@ variable_name.innerHTML; // it gives all value with attribute and give all tag
 document.querySelector("attribute_name"); //select first attribute which are selected in parameter
 document.querySelectorAll("attribute_name"); //select all attribute which are selected in parameter into whole webpage
 document.getElementsByClassName("class_name"); //to fetch the class by using name
+document.createElement("element name"); //create an new element
+document.createTextNode("Hello User"); // create an text node print value which is hello user
+div.appendChild(variable_name); //create new child of main node
+document.querySelector("li:nth-child(index_num)"); //select nth child to perform some task
+variable_name.replacewith(method / variable_name); //replace with child or another method..
+variable_name.outerHTML = "<tag_name> valuee </tag_end>"; // to change outer html
+setInterval(() => {}, timeinSecond); //used to run the code after some given specific time continuously
+preventDefault(); //set event as default
