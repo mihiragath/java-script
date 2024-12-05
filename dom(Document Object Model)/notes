@@ -1,42 +1,70 @@
 console.log(document); // provide whole document html code which is open in chrome
+
 console.log(window); //there are lot's of function which are using to manipulate the data
+
 console.log(window.document); //also provide whole document html code which is open in chrome
+
 document.getElementById("id_name"); //to access an element of html code which mean fetch the data
+
 document.getElementById("id_name").innerHTML =
   "tag name or data which is manupulate temporary on real web on chrome";
+
 document.log(document.attribute_name); //using this command we access the all attributes which are using current webpage'
 //basically dom is used to pagemanipulation usingn dom we able to manupulate different object wehich are related to current page
+
 document.getElementById("id_name").id; //give current id
+
 document.getElementById("id_name").className; //give current class name
+
 document.getElementById("id_name").getAttribute("attribute_name"); //to get current attribute name
+
 document
   .getElementById("id_name")
   .setAttribute("attribute_name", "set_attribute"); //to change or set current attribute name
+
 const variable_name = document.getElementById("id_name"); //to store the data into variables
+
 variable_name.style.css_attribute = "value"; //to set css on the attributes
+
 variable_name.innerText; //it show current disply content
+
 variable_name.textContent; //it show all content which are hiding by css
+
 variable_name.innerHTML; // it gives all value with attribute and give all tag
+
 document.querySelector("attribute_name"); //select first attribute which are selected in parameter
+
 document.querySelectorAll("attribute_name"); //select all attribute which are selected in parameter into whole webpage
+
 document.getElementsByClassName("class_name"); //to fetch the class by using name
+
 document.createElement("element name"); //create an new element
+
 document.createTextNode("Hello User"); // create an text node print value which is hello user
+
 div.appendChild(variable_name); //create new child of main node
+
 document.querySelector("li:nth-child(index_num)"); //select nth child to perform some task
+
 variable_name.replacewith(method / variable_name); //replace with child or another method..
+
 variable_name.outerHTML = "<tag_name> valuee </tag_end>"; // to change outer html
+
 setInterval(() => {}, timeinSecond); //used to run the code after some given specific time continuously
 clearInterval(reference); //used to cleare interval update
+
 preventDefault(); //set event as default
+
 addEventListener(first_params, second_params, third_params);
 //first_params = which event are accure give in string
 //second_params = function calling
 //third_params = by default it is false that's why we don't write it
 //in function parameter we pass event object (e)..
 //if passing third params of event is false that means it call event bubbling other wise when it is true than it's called event capturing.
+
 e.stopPropogation(); //which means stop propogation on vents when multiple events are accure at the same time
 const set = setTimeout(() => {
   //
 }, time_In_MiliSec); //set time in milisecond after time the statement execute automatically
+
 clearTimeout(set); //to remove the settime auto update

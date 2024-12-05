@@ -1,0 +1,9 @@
+difference between lexical scop and hoisting
+
+In JavaScript, hoisting is a process that moves declarations to the top of their scope before the code is executed, while lexical scope is the place where an item was created and the scope of its variable:
+
+Hoisting
+Moves declarations like functions, variables, classes, or imports to the top of their scope before the code is executed. Hoisting is important for writing clean, efficient, and error-free code.
+
+Lexical scope
+The place where an item was created, and the scope of its variable. The program's textual structure determines the scope of the variable. Variables can only be accessed within the region they are declared in.
