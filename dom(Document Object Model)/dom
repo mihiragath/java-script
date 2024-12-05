@@ -27,4 +27,16 @@ document.querySelector("li:nth-child(index_num)"); //select nth child to perform
 variable_name.replacewith(method / variable_name); //replace with child or another method..
 variable_name.outerHTML = "<tag_name> valuee </tag_end>"; // to change outer html
 setInterval(() => {}, timeinSecond); //used to run the code after some given specific time continuously
+clearInterval(reference); //used to cleare interval update
 preventDefault(); //set event as default
+addEventListener(first_params, second_params, third_params);
+//first_params = which event are accure give in string
+//second_params = function calling
+//third_params = by default it is false that's why we don't write it
+//in function parameter we pass event object (e)..
+//if passing third params of event is false that means it call event bubbling other wise when it is true than it's called event capturing.
+e.stopPropogation(); //which means stop propogation on vents when multiple events are accure at the same time
+const set = setTimeout(() => {
+  //
+}, time_In_MiliSec); //set time in milisecond after time the statement execute automatically
+clearTimeout(set); //to remove the settime auto update
