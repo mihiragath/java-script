@@ -68,3 +68,16 @@ const set = setTimeout(() => {
 }, time_In_MiliSec); //set time in milisecond after time the statement execute automatically
 
 clearTimeout(set); //to remove the settime auto update
+
+document.getElementById("element_id").textContent.style.css_style =
+  "value"; //to set css on the text content
+
+document.getElementById("element_id").createElement("tag_name"); //to create new element inside the given id
+
+document.getElementById("element_id").
+
+document.getElementById.firstElementChild.classList.add("class_name"); //to add new class inside the given id first element
+//firstElementChild is used to access first child of given id
+//classList is used to access class list of given id
+
+document.getElementById.firstElementChild.classList.remove("class_name"); //to remove class inside the given id first element
